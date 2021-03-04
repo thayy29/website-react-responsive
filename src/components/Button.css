@@ -17,13 +17,14 @@
 }
 
 .btn--outline {
+  border: 1px solid var(--primary);
   background-color: transparent;
   color: #fff;
   padding: 8px 20px var(--primary);
   transition: all 0.3s ease-out;
 }
 
-.btn-medium {
+.btn--medium {
   padding: 8px 20px;
   font-size: 20px;
 }
@@ -33,7 +34,7 @@
   font-size: 20px;
 }
 
-.btn-medium:hover,
+.btn--medium:hover,
 .btn--large:hover {
   background-color: #fff;
   color: #242424;
