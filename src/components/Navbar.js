@@ -28,7 +28,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            THHH <i className="fab fa-typo3"></i>
+            <i class="fab fa-dyalog"></i>
           </Link>
 
           <div className="menu-icon" onClick={handleClick}>
