@@ -10,7 +10,7 @@ const Cards = () => {
         <div className="cards__wrapper">
           <ul className="cards__item">
             <CardItem
-              src="images/img-9.jpg"
+              src="/images/img-9.jpg"
               text="Explore the hidden waterfall deep inside the Amazon Jungle"
               label="Adventure"
               path="/services"
@@ -33,13 +33,13 @@ const Cards = () => {
               src="images/img-4.jpg"
               text="Experience Footbal on Top of the Himilayan Mountains"
               label="Adventure"
-              path="/services"
+              path="/products"
             />
             <CardItem
               src="images/img-8.jpg"
               text="Ride through the Sahara Desert on a guided camel tour"
               label="Adrenaline"
-              path="/services"
+              path="/sign-up"
             />
           </ul>
         </div>
